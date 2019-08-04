@@ -93,7 +93,7 @@ Switch    mowerStarted         "Mower started"                                 {
 String    mowerTimerStatus     "Mower timer status"                            {channel="robonect:mower:automower:timer-status"}
 DateTime  mowerNextTimer       "Next timer [%1$td/%1$tm %1$tH:%1$tM]" <clock>  {channel="robonect:mower:automower:timer-next"}
 Number    mowerWlanSignal      "WLAN signal [%d dB ]"                          {channel="robonect:mower:automower:wlan-signal"}
-Switch    mowerOneHourJob      "Start mowing for one hour from now"            {channel="robonect:mower:automower:job",remoteStart=REMOTE_1,afterMode=AUTO,duration=60}
+Switch    mowerOneHourJob      "Start mowing for one hour from now"            {channel="robonect:mower:automower:job",remoteStart="REMOTE_1",afterMode="AUTO",duration="60"}
 Number    mowerErrorCode       "Error code"                                    {channel="robonect:mower:automower:error-code"}
 String    mowerErrorMessage    "Error message"                                 {channel="robonect:mower:automower:error-message"}
 DateTime  mowerErrorDate       "Error date [%1$td/%1$tm %1$tH:%1$tM]"          {channel="robonect:mower:automower:error-date"}
