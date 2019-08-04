@@ -77,7 +77,7 @@ This may indicate that the mower may stuck somewhere in error state but does not
 Things file `.things`
 
 ```java
-Thing robonect:mower:automower "Mower" @ "Garden" [ host="192.168.2.1", pollInterval=5, user="gardener", password = "cutter"]
+Thing robonect:mower:automower "Mower" @ "Garden" [ host="192.168.2.1", pollInterval="5", user="gardener", password = "cutter"]
 ```
 
 Items file `.items`
